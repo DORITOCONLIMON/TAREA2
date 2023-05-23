@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimun-scale=1.0, maximun-scale=1.0">
+    <meta name="author" content="Moises Alcivar Castillo">
+    <meta name="description" content="Practica General de direcciones, tablas, formularios y multimedia">
+    <meta name="keywords" content="programacion, html, php, etiquetas, tablas">
+    <title>Universidades</title>
+  </head>
+  <body>
+    <table width="100%">
+      <thead>
+        <tr>
+          <th colspan="4">
+            <img src="img/universidad3.jpg" alt="Universidad" width="100%" height="300px">
+          </th>
+        </tr>
+        <tr>
+          <th colspan="4">
+            <p style="text-align: center;font-size: 40px;font-family: 'Times New Roman';color: rgb(59, 59, 128);">
+              UNIVERSIDADES DEL ECUADOR
+            </p>
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <a href="index.html"><p style="color: rgb(192, 75, 75)">Inicio</p></a>
+          </th>
+          <th>
+            <a href="Universidades/carreras.html"><p style="color: rgb(192, 75, 75)">Carreras</p></a>
+          </th>
+          <th>
+            <a href="Universidades/docentes.html"><p style="color: rgb(192, 75, 75)">Docentes</p></a>
+          </th>
+          <th>
+            <a href="contacto.html"><p style="color: rgb(192, 75, 75)">Contacto</p></a>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="4" bgcolor="red" height="8px"></td>
+        </tr>
+     </tbody>
+      </table>
+        <CENTER> <H1>FORMLARIO DE INGRESO</H1></CENTER>
+
+        <form >
+            
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <BR></BR>
+    
+    <br>
+    
+            <label for="numero">Numero telefonico:</label>
+            <input type="tel" id="numero" name="numero" required>
+            <BR></BR>
+    <br>
+    <p><label for="Campocedula">Cedula:</label>
+      <input type="text" name="numero" id="Campocedula" placeholder="Ingrese el numero de cedula" required></p>
+      <br>
+            
+            <label for="numero">Direccion:</label>
+            <input type="" id="numero" name="numero" required>
+            <BR></BR>
+    <br>
+
+    
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" name="email" id="Campoemail" placeholder="usuari@gmail.com">
+            <BR></BR>
+    
+    <br>
+    <p><label for="Camponivel">Nivel:</label>
+      <input type="radio" name= "Camponivel">Pregrado
+      <input type="radio" name= "Camponivel">Posgrado
+    </p>
+    <br>
+    
+            <label for="universidad">Universidad:</label>
+            <select id="universidad" name="universidad" required>
+              <option value="">Selecciona una universidad</option>
+              <option value="universidad1">Pontificia universidad católica del ecuador</option>
+              <option value="universidad2">Universidad politecnica salesiana cuenca</option>
+              <option value="universidad3">Universidad central del ecuador</option>
+              <!-- Agrega más opciones según sea necesario -->
+            </select>
+            <BR></BR>
+            <br>
+    
+    
+    
+            <label for="carrera">Carrera:</label>
+            <input type="text" id="carrera" name="carrera" required>
+            <BR></BR>
+            <label for="opinion">Tu opinión:</label>
+            <textarea id="opinion" name="opinion" rows="4" required></textarea>
+            <BR></BR>
+            <input type="submit" value="Enviar">
+          
+        </form>
+       
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
